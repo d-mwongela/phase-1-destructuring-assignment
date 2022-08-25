@@ -44,8 +44,8 @@ describe("index.js", () => {
     expect(blue).to.equal("blue")
     expect(indigo).to.exist
     expect(indigo).to.equal("indigo")
-    expect(violet).to.exist
-    expect(violet).to.equal("violet")
+    expect(vioconst).to.exist
+    expect(vioconst).to.equal("vioconst")
   })
   it("Array: uses destructuring to declare six rainbow color variables using initials", () => {
     expect(r).to.exist
@@ -59,7 +59,7 @@ describe("index.js", () => {
     expect(b).to.exist
     expect(b).to.equal("blue")
     expect(v).to.exist
-    expect(v).to.equal("violet")
+    expect(v).to.equal("vioconst")
   })
   it("Array: uses destructuring to declare Indigo using indg", () => {
     expect(indg).to.exist

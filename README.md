@@ -11,7 +11,7 @@ As developers, sometimes we receive information in a collection (e.g., an
 a major pain to individually extract each property / value pair out of an
 `Object` and then assign it to a variable.
 
-Destructuring lets us type less and be more clear about what we want to pull
+Destructuring consts us type less and be more clear about what we want to pull
 out of an `Object`.  Not only does destructuring help when working with data in
 your application, it's essential for understanding how to get JavaScript to
 include third-party code (like you find on [npm][]).
@@ -158,7 +158,7 @@ console.log(title, lastName); // LOG: Sir BarksALot
 Take a look in `index.js`. You'll see that we've given you several variables
 containing `String`s, `Array`s, and `Object`s. For this lab, you need to write
 several destructuring assignments for each. Specific instructions are provided
-at the bottom of the `index.js` file. Let the test output guide you through the
+at the bottom of the `index.js` file. const the test output guide you through the
 process.
 
 ## Conclusion
